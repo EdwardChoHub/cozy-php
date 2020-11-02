@@ -1,0 +1,28 @@
+{
+  "name": "EdwardChoHub/cozy",
+  "type": "library",
+  "description": "Logging for PHP 5.3",
+  "keywords": ["log","logging"],
+  "homepage": "https://github.com/shanadmin/cozy",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "EdwardChoHub",
+      "email": "937503784@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "ext-tidy": "*"
+  },
+  "autoload": {
+    "autoload": {
+      "psr-4": {
+        "EdwardChoHub\\Cozy": "src"
+      }
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8"
+  }
+}
